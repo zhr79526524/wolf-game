@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>灰太狼小灰灰Game</title>
+    <link rel="stylesheet" href="css/index.css" ><!-- 引入css 文件 -->
+    <script language="JavaScript" src="js/jquery.min.js"></script> <!-- 引入链接 jq 文件 -->
+    <script language="JavaScript" src="js/index.js"></script> <!-- 引入自定义 jq 文件 -->
+</head>
+<body>
+    <!-- 网页内容容器部分 -->
+    <div id="container">
+        <!-- h1标签 分数部分 -->
+        <h1 id="number">0分</h1>
+        <!-- 时间进度条部分  -->
+        <div id="progress"></div>
+        <!-- 开始游戏部分 -->
+        <button class="start">开始游戏</button>
+        <!-- 游戏规则 -->
+        <div id="rule">游戏规则</div>
+        <!-- 显示游戏规则部分 -->
+        <div id="rules">
+            <p>游戏规则</p>
+            <p>1、游戏时间60S</p>
+            <p>2、殴打灰太狼 分数+10</p>
+            <p>3、殴打小灰灰 分数-10</p>
+            <a href="#" class="close">[关闭]</a>
+        </div>
+        <!-- 游戏结束页面 -->
+        <div id="mask">
+            <h2 id="current">0</h2>
+            <h1>GAME OVER</h1>
+            <button class="restart">重新开始</button>
+        </div>
+        <!-- 图片区域 -->
+        <div id="img"></div>
+    </div>
+</body>
+</html>
